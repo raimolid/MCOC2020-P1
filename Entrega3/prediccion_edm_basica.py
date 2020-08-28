@@ -59,6 +59,7 @@ def zpunto(z,t):
 
 
 t=linspace(0,intervalo_en_segundos,9361)
+
 z0=array([x_i,y_i,z_i,vx_i,vy_i,vz_i])
 
 sol=odeint(zpunto,z0,t) 
