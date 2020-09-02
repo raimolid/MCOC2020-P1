@@ -36,7 +36,7 @@
 
 # Estudio de convergencia Método de Euler
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega4/plot1.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega4/oscilador_armonico.png)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega4/plot2.png)
+
 
