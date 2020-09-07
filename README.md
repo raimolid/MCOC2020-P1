@@ -38,5 +38,9 @@
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega4/oscilador_armonico.png)
 
+# Mejoras al modelo y estudio de convergencia
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.1.png)
+
 
 
