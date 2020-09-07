@@ -42,5 +42,9 @@
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.1.png)
 
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.2.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.4.png)
+
 
 
