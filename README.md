@@ -40,11 +40,36 @@
 
 # Mejoras al modelo y estudio de convergencia
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.1.png)
+## Entrega 5.1
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.2.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/1.posicion_real_pred.png)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/plot5.4.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/1.deriva_ode_real.png)
+
+
+## Entrega 5.2
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/2.deriva_ode_euler.png)
+
+
+## Entrega 5.3
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_1.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_200.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_500.png)
+
+
+## Entrega 5.4
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.posicion_real_predJ2J3.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.deriva_ode_realJ2J3.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.deriva_ode_eulerJ2J3.png)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.deriva_euler_real_1J2J3.png)
 
 
 
