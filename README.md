@@ -40,28 +40,46 @@
 
 # Mejoras al modelo y estudio de convergencia
 
-## Entrega 5.1
+## Posición predicha versus la posición real
+
+* Con un modelo básico usando la funcion ODEINT, se compara con la posición real del satélite  y su respectiva deriva, donde la deriva final es alrededor de los 877 km, es decir muy lejos todavía de la posición real.
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/1.posicion_real_pred.png)
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/1.deriva_ode_real.png)
 
 
-## Entrega 5.2
+## Comparación ODEINT y EULERINT
+
+* Se presenta una comparación del modelo ocupando odeint versus otro modelo que ocupa la función EULERINT con 1 subdivisión.
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/2.deriva_ode_euler.png)
 
+* El tiempo que tardo cada función en producir resultados fue de 0.205 segundos para ODEINT y 0.732 segundos para EULERINT.
+* La deriva máxima del modelo con ODEINT es la anteriormente mencionada de 877 km y del modelo con EULERINT de 19367 km.
 
-## Entrega 5.3
+## Predicción con EULERINT
 
+### 1 Subdivisión
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_1.png)
 
+* Tiempo de ejecución: 1.01 s
+
+### 200 Subdivisiones
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_200.png)
 
+* Tiempo de ejecución: 177.54 s
+
+### 500 Subdivisiones
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/3.deriva_euler_real_500.png)
 
+* Tiempo de ejecución: 297.88 s
 
-## Entrega 5.4
+## Mejoras al modelo
+
+* Finalmente se le agregan correcciones al modelo, y se presenta la prediccion_edm_avanzada y se replican los mismos gráficos anteriores, donde se puede apreciar que la deriva del modelo disminuye considerablemente agregando las correcciones J2 y J3 del modelo geopotencial gravitatorio.
+
+* La deriva del modelo usando ODEINT con las correcciones fue alrededor de 80 km
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.posicion_real_predJ2J3.png)
 
@@ -71,5 +89,5 @@
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P1/blob/master/Entrega5/4.deriva_euler_real_1J2J3.png)
 
-
+* Para la presentación final del código se presenta la carpeta Entrega_final con el código completo a implementar
 
